@@ -1,20 +1,49 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Picture to an Html</title>
     
 </head>
-<body>
-    <h1 style="text-align: center;">Bader Bricha</h1>
+<body style="font-size: 19px; padding: 4%;">
+    <h1 style="text-align: center;" >Bader Bricha</h1>
     <h2 style="text-align: center;">BaderBricha@gmail.com</h2>
-    <text> This web site is divided into a minimum of three areas, with a minimum of one of the areas having subordinate pages as well. Specifically, the areas are</text>
-<div>
-    <ol>
-        <li><h3>About me.</h3> <span>this is some text.</span></li>
-        <li><h3>Classes</h3></li>
-        <li><h3>Interests</h3></li>
-    </ol>
+    <text > This web site is divided into a minimum of three areas, with a minimum of one of the areas having subordinate pages as well. Specifically, the areas are</text>
+    <div>
+        <ol>
+            <li>
+                <h3 style="display: inline;">About me.</h3>
+                 <p style="display: inline;">my name is Bader and I'm from Morocco. I studied Python at LWTECH and absolutely loved it! I have a huge passion for software development and love exploring all the possibilities that technology can offer. In my free time, you'll usually find me playing or watching soccer, as it's one of my favorite sports! I also enjoy skiing and hitting the slopes whenever I get the chance. Overall, I'm just a curious and driven individual who's always seeking to learn new things and take on new challenges. I'm excited to see where my journey in software development takes me and can't wait to see what the future holds!.</p></li>
+            <li >
+                <h3 style="display: inline;">Classes. </h3>
+                <p style="display: inline;">this area Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores fuga vero optio, est facilis similique cupiditate impedit earum ea autem soluta asperiores neque consectetur magni provident expedita velit totam consequuntur?</p>
+                <ul>
+                    <li>Task 3 Markup</li>
+                    <li>Task 4 Spreadsheet</li>
+                    <li>Task 5 Relational Databases</li>
+                    <li>Task 6 Presentaional Graphics</li>
+                </ul>
+            
+            </li>
+            <li>
+                <h3 style="display: inline;">Interests. </h3>
+                <p style="display: inline-block;"> This area may have subordinate pages for fuller explorationd of personal interests.</p>
+            </li>
+        </ol>
     
-</div>
+    </div>
+
+    <footer id="last-updated">
+        <script>
+       let date = new Date();
+       let timestamp = `Last updated on [${date.toLocaleDateString()} at ${date.toLocaleTimeString()}]`;
+       document.getElementById('last-updated').textContent = timestamp;
+       </script>
+    </footer>
+   
 </body>
+
 </html>
